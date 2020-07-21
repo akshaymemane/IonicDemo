@@ -1,17 +1,55 @@
-<ion-header [translucent]="true">
+
+<ion-header translucent>
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title>Home</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
-</ion-header>
+</ion-header>,
+<ion-content fullscreen>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <ion-card class="card-center">
+      <img src="./../../assets/hiking.jpg" />
+      <ion-card-header>
+        <ion-icon size="large" name="heart-outline"></ion-icon>
+        &nbsp;&nbsp;
+        <ion-icon size="large" name="chatbubble-outline"></ion-icon>
+        <ion-card-subtitle>Destination</ion-card-subtitle>
+        <ion-card-title>Hiking, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.
+      </ion-card-content>
+    </ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-card class="card-center">
+      <img src="./../../assets/dance.jpg" />
+      <ion-card-header>
+        <ion-icon size="large" name="heart-outline"></ion-icon>
+        &nbsp;&nbsp;
+        <ion-icon size="large" name="chatbubble-outline"></ion-icon>
+        <ion-card-subtitle>Destination</ion-card-subtitle>
+        <ion-card-title>Dance, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="card-center">
+      <img src="./../../assets/cycling.jpg" />
+      <ion-card-header>
+        <ion-icon size="large" name="heart-outline"></ion-icon>
+        &nbsp;&nbsp;
+        <ion-icon size="large" name="chatbubble-outline"></ion-icon>
+        <ion-card-subtitle>Destination</ion-card-subtitle>
+        <ion-card-title>Cycling, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin Territory in 1836.
+      </ion-card-content>
+    </ion-card>
+
+  
 </ion-content>
